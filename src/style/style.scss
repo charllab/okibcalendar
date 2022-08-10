@@ -1,0 +1,116 @@
+// Bootstrap
+@import "bootstrap-custom";
+
+
+
+// + + + + + + + + + + + general + + + + + + + + + + +
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    overflow-y: visible;
+    -webkit-tap-highlight-color: transparent;
+    background: #f2f0e8 url(../images/bg-tiled.jpg) repeat;
+    color: #555;
+    font: 400 18px/1.6 Open Sans,Arial,sans-serif;
+    position: relative;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+// + + + + + + + + + + + content + + + + + + + + + + +
+
+#main {
+    margin: auto;
+    background: #fff;
+    max-width: 1170px;
+    position: relative;
+    box-shadow: 0 0 35px rgba(0,0,0,.1);
+}
+
+// + + + + + + + + + + + footer + + + + + + + + + + +
+
+#footer, #footer a {
+    color: #fff;
+}
+
+#footer {
+    background: #009ba7 url(../images/footer-bg.jpg) top no-repeat;
+    padding-top: 140px;
+    font-size: 16px
+}
+
+#footer,#footer a {
+    color: #fff
+}
+
+#footer .footer-content {
+    padding: 35px;
+    border-top: 6px solid #fff
+}
+
+#footer .lead {
+    margin: 5px 0
+}
+
+#footer .tagline img {
+    float: right;
+    margin: 0;
+    width: 150px;
+    height: 77px
+}
+
+@media (max-width: 1000px) {
+    #footer .tagline img {
+        float:none;
+        margin: 15px auto
+    }
+}
+
+@media (max-width: 1000px) {
+    #footer {
+        text-align:center
+    }
+}
+
+#footer-nav {
+    margin: 10px 0;
+    padding: 10px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5
+}
+
+#footer-nav .nav .fa-angle-down,#footer-nav .nav ul {
+    display: none
+}
+
+#footer-nav .nav a,#footer-nav .nav li {
+    display: inline-block
+}
+
+#credits {
+    text-transform: uppercase;
+    color: #aaa;
+    font-size: 13px;
+    padding: 30px 15px 5px;
+    background: #58585a;
+    font-family: Montserrat,sans-serif
+}
+
+#credits .divider {
+    color: #888
+}
+
+@media (max-width: 1000px) {
+    #credits .col-md-6 {
+        text-align:center
+    }
+}
