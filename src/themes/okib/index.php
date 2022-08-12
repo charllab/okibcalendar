@@ -4,6 +4,11 @@ get_header();
 <div class="site-overlay"></div>
 
 <main id="content" role="main">
+    <div class="page-heading">
+        <div class="inner-content">
+            <h1>Calendar</h1>
+        </div>
+    </div>
 <div class="container">
     <div class="row">
         <div class="col-12">
