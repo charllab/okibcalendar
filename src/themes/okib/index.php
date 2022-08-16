@@ -6,7 +6,7 @@ get_header();
 <main id="content" role="main">
     <div class="page-heading">
         <div class="inner-content">
-            <h1>Calendar</h1>
+            <h1><a href="<?php echo esc_url(home_url('/')); ?>" style="color: white; text-decoration: none;">Calendar</a></h1>
         </div>
     </div>
 <div class="container">
