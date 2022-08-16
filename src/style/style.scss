@@ -34,9 +34,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 // + + + + + + + + + + + content + + + + + + + + + + +
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+
 #header {
     background: white;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     text-align: center;
 
     @include media-breakpoint-up(xl) {
@@ -264,4 +269,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
             border-radius: 4px;
         }
     }
+}
+
+#tribe-events-content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6,
+.tribe-events-single-event-title {
+    font-weight: 500;
 }
