@@ -1,10 +1,8 @@
 jQuery(function () {
 
 
-    $('').ma
-
     // Auto target _blank external links
-    targetBlankExternalLinks();
+    // targetBlankExternalLinks();
 
     // Remove WP Block element iframe classes
     if (jQuery('.wp-block-embed-youtube').length) {
